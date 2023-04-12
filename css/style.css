@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Schibsted+Grotesk&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anuphan', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.site-head {
+    width: 100%;
+}
+
+.site-navigation {
+    width: 100%;
+    margin: 1.25rem auto;
+    max-width: 75rem;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.site-navigation a {
+    text-decoration: none;
+}
+
+.content-area {
+    width: 100%;
+}
+
+.article-content {
+    width: 100%;
+    max-width: 75rem;
+    margin: 1rem auto;
+
+}
+
+.image-div {
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.article-content p {
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.article-content ol {
+    list-style-position: inside;
+}
+
+.site-end {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-margin{
+    width: 100%;
+    max-width: 75rem;
+    padding: 1rem;
+    margin:  auto;
+}
+
+.footer-margin li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.footer-margin li:first-child{
+    margin: 0;
+}
+
+.footer-margin li a {
+    color: #fff;
+}
